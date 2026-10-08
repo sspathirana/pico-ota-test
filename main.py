@@ -11,7 +11,7 @@ WIFI_PASSWORD = "onion321"
 
 # Point to the raw file on GitHub or your local server
 # The URL should end with a /
-OTA_BASE_URL = "https://raw.githubusercontent.com/sspathirana/pico-ota-test/refs/heads/main/"
+OTA_BASE_URL = "https://raw.githubusercontent.com/sspathirana/pico-ota-test/main/"
 VERSION_FILE = "version.json"
 APP_FILE = "main.py"
 led = machine.Pin("LED", machine.Pin.OUT)
